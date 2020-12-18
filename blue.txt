@@ -7,3 +7,57 @@ int main()
 	printf("f=%f\nc=%f\n",f,c);
 	return 0;
 }
+
+//求水仙花数
+#include<stdio.h>
+int main()
+{
+	int i,g,s,b;
+	scanf("%d",&i);
+	g=i%10;
+	s=i%10/10;
+	b=i/100;
+	if(i==(g*g*g+s*s*s+b*b*b))
+	{printf("是\n");}
+	else
+	{
+		printf("no\n");
+	}
+	return 0;
+}
+
+从一百到999
+#include <stdio.h>
+#include <windows.h>
+int main()
+{
+	int i,j,k,s;
+	for(i=1;i<10;i++)
+	{
+		for(j=0;j<10;j++)
+		{
+			for(k=0;k<10;k++)
+			{
+				s=i*100+j*10+k;
+				printf("%d\n",s);
+				Sleep(1);
+
+			}
+		}
+	}
+	return 0;
+}
+
+菱形字符
+#include<stdio.h>
+int main()
+{
+   printf("     *\n");
+   printf("    ***\n");
+   printf("   *****\n");
+   printf("  *******\n");
+   printf("   *****\n");
+   printf("    ***\n");
+   printf("     *\n");
+ return 0;
+}
