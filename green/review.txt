@@ -79,3 +79,16 @@ int main()
 }
 
 09
+#include<stdio.h>
+int main()
+{
+	float r,zc,mj;
+	printf("输入半径\n");
+	scanf("%f",&r);
+	zc=2*3.14*r;
+	mj=3.14*r*r;
+	printf("zc=%f\n",zc);
+	printf("mj=%f\n",mj);
+}
+
+10
